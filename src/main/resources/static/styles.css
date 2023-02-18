@@ -1,0 +1,66 @@
+/* type=Main, shape=Circle, theme=Light, size=L 56px */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 12px;
+
+position: absolute;
+width: 280px;
+height: 56px;
+left: 628px;
+top: 20px;
+
+background: #000000;
+border-radius: 100px;
+
+
+/* [Яндекс: знак, рус.] */
+
+width: 24px;
+height: 24px;
+
+background: #FC3F1D;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.61%;
+right: 32.51%;
+top: 20.05%;
+bottom: 19.95%;
+
+background: #FFFFFF;
+
+
+/* text wrapper */
+
+width: 136px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Войти с Яндекс ID */
+
+position: absolute;
+width: 133.83px;
+height: 13.97px;
+left: calc(50% - 133.83px/2 + 0.31px);
+top: calc(50% - 13.97px/2 + 0.38px);
+
+background: #FFFFFF;
